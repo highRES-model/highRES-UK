@@ -22,9 +22,6 @@ Solar 0.12
 
 
 
-* ancillary service type
-
-
 
 
 set map_minup(h,non_vre,h)
