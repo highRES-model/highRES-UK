@@ -1,0 +1,209 @@
+set 
+s / 
+PumpedHydro 
+Li-ion-8 
+/ 
+ 
+set 
+store_uc_lin(s) / 
+/ 
+ 
+parameter 
+store_lim_ecap_z / 
+BNL.PumpedHydro.FX 10.188
+DEU.PumpedHydro.FX 39.12
+EC.PumpedHydro.FX 463.44
+EN.PumpedHydro.FX 90.88
+ES.PumpedHydro.FX 87.21
+FRA.PumpedHydro.FX 83.37
+IBE.PumpedHydro.FX 110.77
+IRL.PumpedHydro.FX 1.8
+NDK.PumpedHydro.FX 399.39
+UK1.PumpedHydro.FX 0.0
+UK2.PumpedHydro.FX 1.3
+UK3.PumpedHydro.FX 10.0
+UK4.PumpedHydro.FX 0.0
+UK5.PumpedHydro.FX 15.4
+UK6.PumpedHydro.FX 0.0
+UK7.PumpedHydro.FX 0.0
+UK8.PumpedHydro.FX 0.0
+UK9.PumpedHydro.FX 0.0
+/ 
+ 
+parameter 
+store_lim_pcap_z / 
+BNL.PumpedHydro.FX 2.599
+DEU.PumpedHydro.FX 8.41
+EC.PumpedHydro.FX 7.10479
+EN.PumpedHydro.FX 3.09612
+ES.PumpedHydro.FX 7.267
+FRA.PumpedHydro.FX 4.965
+IBE.PumpedHydro.FX 6.0706
+IRL.PumpedHydro.FX 0.292
+NDK.PumpedHydro.FX 1.343
+UK1.PumpedHydro.FX 0.0
+UK2.PumpedHydro.FX 0.3
+UK3.PumpedHydro.FX 0.44
+UK4.PumpedHydro.FX 0.0
+UK5.PumpedHydro.FX 2.088
+UK6.PumpedHydro.FX 0.0
+UK7.PumpedHydro.FX 0.0
+UK8.PumpedHydro.FX 0.0
+UK9.PumpedHydro.FX 0.0
+BNL.Li-ion-8.UP inf
+DEU.Li-ion-8.UP inf
+EC.Li-ion-8.UP inf
+EN.Li-ion-8.UP inf
+ES.Li-ion-8.UP inf
+FRA.Li-ion-8.UP inf
+IBE.Li-ion-8.UP inf
+IRL.Li-ion-8.UP inf
+NDK.Li-ion-8.UP inf
+UK1.Li-ion-8.UP inf
+UK2.Li-ion-8.UP inf
+UK3.Li-ion-8.UP inf
+UK4.Li-ion-8.UP inf
+UK5.Li-ion-8.UP inf
+UK6.Li-ion-8.UP inf
+UK7.Li-ion-8.UP inf
+UK8.Li-ion-8.UP inf
+UK9.Li-ion-8.UP inf
+/ 
+ 
+parameter 
+store_exist_ecap_z / 
+BNL.PumpedHydro.FX 10.188
+DEU.PumpedHydro.FX 39.12
+EC.PumpedHydro.FX 463.44
+EN.PumpedHydro.FX 90.88
+ES.PumpedHydro.FX 87.21
+FRA.PumpedHydro.FX 83.37
+IBE.PumpedHydro.FX 110.77
+IRL.PumpedHydro.FX 1.8
+NDK.PumpedHydro.FX 399.39
+UK1.PumpedHydro.FX 0.0
+UK2.PumpedHydro.FX 1.3
+UK3.PumpedHydro.FX 10.0
+UK4.PumpedHydro.FX 0.0
+UK5.PumpedHydro.FX 15.4
+UK6.PumpedHydro.FX 0.0
+UK7.PumpedHydro.FX 0.0
+UK8.PumpedHydro.FX 0.0
+UK9.PumpedHydro.FX 0.0
+/ 
+ 
+parameter 
+store_exist_pcap_z / 
+BNL.PumpedHydro.FX 2.599
+DEU.PumpedHydro.FX 8.41
+EC.PumpedHydro.FX 7.10479
+EN.PumpedHydro.FX 3.09612
+ES.PumpedHydro.FX 7.267
+FRA.PumpedHydro.FX 4.965
+IBE.PumpedHydro.FX 6.0706
+IRL.PumpedHydro.FX 0.292
+NDK.PumpedHydro.FX 1.343
+UK1.PumpedHydro.FX 0.0
+UK2.PumpedHydro.FX 0.3
+UK3.PumpedHydro.FX 0.44
+UK4.PumpedHydro.FX 0.0
+UK5.PumpedHydro.FX 2.088
+UK6.PumpedHydro.FX 0.0
+UK7.PumpedHydro.FX 0.0
+UK8.PumpedHydro.FX 0.0
+UK9.PumpedHydro.FX 0.0
+/ 
+ 
+parameter 
+store_max_freq / 
+PumpedHydro 0.25
+Li-ion-8 1.0
+/ 
+ 
+parameter 
+store_max_res / 
+PumpedHydro 1.0
+Li-ion-8 1.0
+/ 
+ 
+parameter 
+store_eff_in / 
+PumpedHydro 0.88
+Li-ion-8 0.93
+/ 
+ 
+parameter 
+store_eff_out / 
+PumpedHydro 0.88
+Li-ion-8 0.93
+/ 
+ 
+parameter 
+store_loss_per_hr / 
+PumpedHydro 0.0
+Li-ion-8 0.0
+/ 
+ 
+parameter 
+store_p_to_e / 
+PumpedHydro 8.45
+Li-ion-8 8.0
+/ 
+ 
+parameter 
+store_varom / 
+PumpedHydro 0.036
+/ 
+ 
+parameter 
+store_ecapex / 
+PumpedHydro 0.0
+Li-ion-8 8.12248768
+/ 
+ 
+parameter 
+store_pcapex / 
+PumpedHydro 0.0
+Li-ion-8 6.8666417
+/ 
+ 
+parameter 
+store_fom / 
+PumpedHydro 26.61798473
+Li-ion-8 5.9
+/ 
+ 
+parameter 
+store_af / 
+PumpedHydro 0.95
+Li-ion-8 0.95
+/ 
+ 
+parameter 
+store_mindown / 
+/ 
+ 
+parameter 
+store_minup / 
+/ 
+ 
+parameter 
+store_startupcost / 
+/ 
+ 
+parameter 
+store_inertia / 
+/ 
+ 
+parameter 
+store_unitsize / 
+/ 
+ 
+parameter 
+store_mingen / 
+/ 
+ 
+parameter 
+store_maxramp / 
+/ 
+ 

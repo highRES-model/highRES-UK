@@ -1,0 +1,18 @@
+parameter 
+gen_capex / 
+Windonshore 55.33
+Windoffshore 114.64
+Solar 17.24
+NuclearEPR 399.47
+/ 
+ 
+parameter 
+store_ecapex / 
+Li-ion-8 7.46
+/ 
+ 
+parameter 
+store_pcapex / 
+Li-ion-8 6.31
+/ 
+ 

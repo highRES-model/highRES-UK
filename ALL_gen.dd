@@ -1,0 +1,499 @@
+set 
+g / 
+NaturalgasCCGTwithCCSnewOT 
+NaturalgasOCGTnew 
+BiomassCCS 
+Solar 
+Windoffshore 
+Windonshore 
+HydroRoR 
+HydroRes 
+NuclearEPR 
+NuclearSW 
+SynCon 
+/ 
+ 
+set 
+non_vre(g) / 
+NaturalgasCCGTwithCCSnewOT 
+NaturalgasOCGTnew 
+BiomassCCS 
+NuclearEPR 
+NuclearSW 
+SynCon 
+/ 
+ 
+set 
+vre(g) / 
+Solar 
+Windoffshore 
+Windonshore 
+HydroRoR 
+/ 
+ 
+set 
+hydro_res(g) / 
+HydroRes 
+/ 
+ 
+set 
+gen_uc_int(g) / 
+/ 
+ 
+set 
+gen_uc_lin(g) / 
+NaturalgasCCGTwithCCSnewOT 
+NaturalgasOCGTnew 
+BiomassCCS 
+NuclearEPR 
+NuclearSW 
+SynCon 
+/ 
+ 
+parameter 
+gen_lim_pcap_z / 
+BNL.BiomassCCS.UP inf
+DEU.BiomassCCS.UP inf
+EC.BiomassCCS.UP inf
+EN.BiomassCCS.UP inf
+ES.BiomassCCS.UP inf
+FRA.BiomassCCS.UP inf
+IBE.BiomassCCS.UP inf
+IRL.BiomassCCS.UP inf
+NDK.BiomassCCS.UP inf
+UK1.BiomassCCS.UP inf
+UK2.BiomassCCS.UP inf
+UK3.BiomassCCS.UP inf
+UK4.BiomassCCS.UP inf
+UK5.BiomassCCS.UP inf
+UK6.BiomassCCS.UP inf
+UK7.BiomassCCS.UP inf
+UK8.BiomassCCS.UP inf
+UK9.BiomassCCS.UP inf
+BNL.HydroRes.FX 0.011
+DEU.HydroRes.FX 0.74
+EC.HydroRes.FX 16.06496
+EN.HydroRes.FX 17.68517
+ES.HydroRes.FX 11.994
+FRA.HydroRes.FX 8.21366
+IBE.HydroRes.FX 19.6227
+IRL.HydroRes.FX 0.0
+NDK.HydroRes.FX 23.572
+UK1.HydroRes.FX 0.0
+UK2.HydroRes.FX 0.0
+UK3.HydroRes.FX 0.0
+UK4.HydroRes.FX 0.0
+UK5.HydroRes.FX 0.0
+UK6.HydroRes.FX 0.0
+UK7.HydroRes.FX 0.0
+UK8.HydroRes.FX 0.0
+UK9.HydroRes.FX 0.0
+BNL.HydroRoR.FX 0.17756
+DEU.HydroRoR.FX 4.775
+EC.HydroRoR.FX 14.53001
+EN.HydroRoR.FX 5.31484
+ES.HydroRoR.FX 12.193
+FRA.HydroRoR.FX 10.3141
+IBE.HydroRoR.FX 4.0644
+IRL.HydroRoR.FX 0.216
+NDK.HydroRoR.FX 7.561
+UK1.HydroRoR.FX 0.0
+UK2.HydroRoR.FX 0.664
+UK3.HydroRoR.FX 0.704
+UK4.HydroRoR.FX 0.0
+UK5.HydroRoR.FX 0.038
+UK6.HydroRoR.FX 0.0
+UK7.HydroRoR.FX 0.0
+UK8.HydroRoR.FX 0.06
+UK9.HydroRoR.FX 0.0
+BNL.NaturalgasCCGTwithCCSnewOT.UP inf
+DEU.NaturalgasCCGTwithCCSnewOT.UP inf
+EC.NaturalgasCCGTwithCCSnewOT.UP inf
+EN.NaturalgasCCGTwithCCSnewOT.UP inf
+ES.NaturalgasCCGTwithCCSnewOT.UP inf
+FRA.NaturalgasCCGTwithCCSnewOT.UP inf
+IBE.NaturalgasCCGTwithCCSnewOT.UP inf
+IRL.NaturalgasCCGTwithCCSnewOT.UP inf
+NDK.NaturalgasCCGTwithCCSnewOT.UP inf
+UK1.NaturalgasCCGTwithCCSnewOT.UP inf
+UK2.NaturalgasCCGTwithCCSnewOT.UP inf
+UK3.NaturalgasCCGTwithCCSnewOT.UP inf
+UK4.NaturalgasCCGTwithCCSnewOT.UP inf
+UK5.NaturalgasCCGTwithCCSnewOT.UP inf
+UK6.NaturalgasCCGTwithCCSnewOT.UP inf
+UK7.NaturalgasCCGTwithCCSnewOT.UP inf
+UK8.NaturalgasCCGTwithCCSnewOT.UP inf
+UK9.NaturalgasCCGTwithCCSnewOT.UP inf
+BNL.NaturalgasOCGTnew.UP inf
+DEU.NaturalgasOCGTnew.UP inf
+EC.NaturalgasOCGTnew.UP inf
+EN.NaturalgasOCGTnew.UP inf
+ES.NaturalgasOCGTnew.UP inf
+FRA.NaturalgasOCGTnew.UP inf
+IBE.NaturalgasOCGTnew.UP inf
+IRL.NaturalgasOCGTnew.UP inf
+NDK.NaturalgasOCGTnew.UP inf
+UK1.NaturalgasOCGTnew.UP inf
+UK2.NaturalgasOCGTnew.UP inf
+UK3.NaturalgasOCGTnew.UP inf
+UK4.NaturalgasOCGTnew.UP inf
+UK5.NaturalgasOCGTnew.UP inf
+UK6.NaturalgasOCGTnew.UP inf
+UK7.NaturalgasOCGTnew.UP inf
+UK8.NaturalgasOCGTnew.UP inf
+UK9.NaturalgasOCGTnew.UP inf
+BNL.NuclearEPR.UP inf
+DEU.NuclearEPR.UP 0.0
+EC.NuclearEPR.UP inf
+EN.NuclearEPR.UP inf
+ES.NuclearEPR.UP inf
+FRA.NuclearEPR.UP inf
+IBE.NuclearEPR.UP inf
+IRL.NuclearEPR.UP inf
+NDK.NuclearEPR.UP inf
+UK1.NuclearEPR.UP inf
+UK2.NuclearEPR.UP inf
+UK3.NuclearEPR.UP inf
+UK4.NuclearEPR.UP inf
+UK5.NuclearEPR.UP inf
+UK6.NuclearEPR.UP inf
+UK7.NuclearEPR.UP inf
+UK8.NuclearEPR.UP inf
+UK9.NuclearEPR.UP inf
+BNL.NuclearSW.FX 0.0
+DEU.NuclearSW.FX 0.0
+EC.NuclearSW.FX 0.0
+EN.NuclearSW.FX 0.0
+ES.NuclearSW.FX 0.0
+FRA.NuclearSW.FX 0.0
+IBE.NuclearSW.FX 0.0
+IRL.NuclearSW.FX 0.0
+NDK.NuclearSW.FX 0.0
+UK1.NuclearSW.FX 0.0
+UK2.NuclearSW.FX 0.0
+UK3.NuclearSW.FX 0.0
+UK4.NuclearSW.FX 0.0
+UK5.NuclearSW.FX 0.0
+UK6.NuclearSW.FX 0.0
+UK7.NuclearSW.FX 1.2
+UK8.NuclearSW.FX 0.0
+UK9.NuclearSW.FX 0.0
+BNL.SynCon.UP 0.0
+DEU.SynCon.UP 0.0
+EC.SynCon.UP 0.0
+EN.SynCon.UP 0.0
+ES.SynCon.UP 0.0
+FRA.SynCon.UP 0.0
+IBE.SynCon.UP 0.0
+IRL.SynCon.UP 0.0
+NDK.SynCon.UP 0.0
+UK1.SynCon.UP inf
+UK2.SynCon.UP inf
+UK3.SynCon.UP inf
+UK4.SynCon.UP inf
+UK5.SynCon.UP inf
+UK6.SynCon.UP inf
+UK7.SynCon.UP inf
+UK8.SynCon.UP inf
+UK9.SynCon.UP inf
+/ 
+ 
+parameter 
+gen_lim_ecap_z / 
+BNL.HydroRes.FX 3996.09638775
+DEU.HydroRes.FX 300.0
+EC.HydroRes.FX 27500.0
+EN.HydroRes.FX 40900.0
+ES.HydroRes.FX 21700.0
+FRA.HydroRes.FX 9800.0
+IBE.HydroRes.FX 21000.0
+IRL.HydroRes.FX 0.0
+NDK.HydroRes.FX 84400.0
+UK1.HydroRes.FX 0.0
+UK2.HydroRes.FX 0.0
+UK3.HydroRes.FX 0.0
+UK4.HydroRes.FX 0.0
+UK5.HydroRes.FX 0.0
+UK6.HydroRes.FX 0.0
+UK7.HydroRes.FX 0.0
+UK8.HydroRes.FX 0.0
+UK9.HydroRes.FX 0.0
+/ 
+ 
+parameter 
+gen_exist_ecap_z / 
+BNL.HydroRes.FX 3996.09638775
+DEU.HydroRes.FX 300.0
+EC.HydroRes.FX 27500.0
+EN.HydroRes.FX 40900.0
+ES.HydroRes.FX 21700.0
+FRA.HydroRes.FX 9800.0
+IBE.HydroRes.FX 21000.0
+IRL.HydroRes.FX 0.0
+NDK.HydroRes.FX 84400.0
+UK1.HydroRes.FX 0.0
+UK2.HydroRes.FX 0.0
+UK3.HydroRes.FX 0.0
+UK4.HydroRes.FX 0.0
+UK5.HydroRes.FX 0.0
+UK6.HydroRes.FX 0.0
+UK7.HydroRes.FX 0.0
+UK8.HydroRes.FX 0.0
+UK9.HydroRes.FX 0.0
+/ 
+ 
+parameter 
+gen_exist_pcap_z / 
+BNL.HydroRes.FX 0.011
+DEU.HydroRes.FX 0.74
+EC.HydroRes.FX 16.06496
+EN.HydroRes.FX 17.68517
+ES.HydroRes.FX 11.994
+FRA.HydroRes.FX 8.21366
+IBE.HydroRes.FX 19.6227
+IRL.HydroRes.FX 0.0
+NDK.HydroRes.FX 23.572
+UK1.HydroRes.FX 0.0
+UK2.HydroRes.FX 0.0
+UK3.HydroRes.FX 0.0
+UK4.HydroRes.FX 0.0
+UK5.HydroRes.FX 0.0
+UK6.HydroRes.FX 0.0
+UK7.HydroRes.FX 0.0
+UK8.HydroRes.FX 0.0
+UK9.HydroRes.FX 0.0
+BNL.HydroRoR.FX 0.17756
+DEU.HydroRoR.FX 4.775
+EC.HydroRoR.FX 14.53001
+EN.HydroRoR.FX 5.31484
+ES.HydroRoR.FX 12.193
+FRA.HydroRoR.FX 10.3141
+IBE.HydroRoR.FX 4.0644
+IRL.HydroRoR.FX 0.216
+NDK.HydroRoR.FX 7.561
+UK1.HydroRoR.FX 0.0
+UK2.HydroRoR.FX 0.664
+UK3.HydroRoR.FX 0.704
+UK4.HydroRoR.FX 0.0
+UK5.HydroRoR.FX 0.038
+UK6.HydroRoR.FX 0.0
+UK7.HydroRoR.FX 0.0
+UK8.HydroRoR.FX 0.06
+UK9.HydroRoR.FX 0.0
+BNL.NuclearEPR.FX 0.0
+DEU.NuclearEPR.FX 0.0
+EC.NuclearEPR.FX 0.0
+EN.NuclearEPR.FX 0.0
+ES.NuclearEPR.FX 0.0
+FRA.NuclearEPR.FX 0.0
+IBE.NuclearEPR.FX 0.0
+IRL.NuclearEPR.FX 0.0
+NDK.NuclearEPR.FX 0.0
+UK1.NuclearEPR.FX 0.0
+UK2.NuclearEPR.FX 0.0
+UK3.NuclearEPR.FX 0.0
+UK4.NuclearEPR.FX 0.0
+UK5.NuclearEPR.FX 0.0
+UK6.NuclearEPR.FX 0.0
+UK7.NuclearEPR.FX 0.0
+UK8.NuclearEPR.FX 3.3
+UK9.NuclearEPR.FX 0.0
+BNL.NuclearSW.FX 0.0
+DEU.NuclearSW.FX 0.0
+EC.NuclearSW.FX 0.0
+EN.NuclearSW.FX 0.0
+ES.NuclearSW.FX 0.0
+FRA.NuclearSW.FX 0.0
+IBE.NuclearSW.FX 0.0
+IRL.NuclearSW.FX 0.0
+NDK.NuclearSW.FX 0.0
+UK1.NuclearSW.FX 0.0
+UK2.NuclearSW.FX 0.0
+UK3.NuclearSW.FX 0.0
+UK4.NuclearSW.FX 0.0
+UK5.NuclearSW.FX 0.0
+UK6.NuclearSW.FX 0.0
+UK7.NuclearSW.FX 1.2
+UK8.NuclearSW.FX 0.0
+UK9.NuclearSW.FX 0.0
+/ 
+ 
+parameter 
+gen_emisfac / 
+NaturalgasCCGTwithCCSnewOT 0.04421673
+NaturalgasOCGTnew 0.52842083
+BiomassCCS -1.0515835
+Solar 0.0
+Windoffshore 0.0
+Windonshore 0.0
+HydroRoR 0.0
+HydroRes 0.0
+NuclearEPR 0.0
+NuclearSW 0.0
+/ 
+ 
+parameter 
+gen_maxramp / 
+NaturalgasCCGTwithCCSnewOT 47.0
+NaturalgasOCGTnew 78.0
+BiomassCCS 30.0
+NuclearEPR 41.25
+NuclearSW 30.0
+SynCon 0.0
+/ 
+ 
+parameter 
+gen_mindown / 
+NaturalgasCCGTwithCCSnewOT 4.0
+NaturalgasOCGTnew 1.0
+BiomassCCS 6.0
+NuclearEPR 8.0
+NuclearSW 8.0
+SynCon 1.0
+/ 
+ 
+parameter 
+gen_minup / 
+NaturalgasCCGTwithCCSnewOT 4.0
+NaturalgasOCGTnew 1.0
+BiomassCCS 6.0
+NuclearEPR 24.0
+NuclearSW 24.0
+SynCon 1.0
+/ 
+ 
+parameter 
+gen_startupcost / 
+NaturalgasCCGTwithCCSnewOT 141.0
+NaturalgasOCGTnew 3.1
+BiomassCCS 141.0
+NuclearEPR 195.0
+NuclearSW 195.0
+SynCon 0.0
+/ 
+ 
+parameter 
+gen_inertia / 
+NaturalgasCCGTwithCCSnewOT 5.0
+NaturalgasOCGTnew 5.0
+BiomassCCS 5.0
+NuclearEPR 7.0
+NuclearSW 7.0
+SynCon 6.5
+/ 
+ 
+parameter 
+gen_unitsize / 
+NaturalgasCCGTwithCCSnewOT 500.0
+NaturalgasOCGTnew 50.0
+BiomassCCS 500.0
+NuclearEPR 1650.0
+NuclearSW 1200.0
+SynCon 200.0
+/ 
+ 
+parameter 
+gen_capex / 
+NaturalgasCCGTwithCCSnewOT 107.312
+NaturalgasOCGTnew 27.811
+BiomassCCS 349.807
+Solar 17.312
+Windoffshore 114.595
+Windonshore 55.326
+HydroRoR 267.628
+HydroRes 267.628
+NuclearEPR 546.354
+NuclearSW 546.354
+SynCon 8.697
+/ 
+ 
+parameter 
+gen_varom / 
+NaturalgasCCGTwithCCSnewOT 0.004
+NaturalgasOCGTnew 0.005
+BiomassCCS 0.00384865
+Solar 0.0
+Windoffshore 0.00168123
+Windonshore 0.00502568
+HydroRoR 0.002
+HydroRes 0.002
+NuclearEPR 0.00442909
+NuclearSW 0.00442909
+/ 
+ 
+parameter 
+gen_fom / 
+NaturalgasCCGTwithCCSnewOT 32.772
+NaturalgasOCGTnew 13.726
+BiomassCCS 104.263
+Solar 5.0
+Windoffshore 85.0
+Windonshore 20.0
+HydroRoR 41.661
+HydroRes 41.661
+NuclearEPR 63.074
+NuclearSW 63.074
+/ 
+ 
+parameter 
+gen_fuelcost / 
+NaturalgasCCGTwithCCSnewOT 0.05689316
+NaturalgasOCGTnew 0.07103945
+BiomassCCS 0.04881135
+NuclearEPR 0.00559664
+NuclearSW 0.00559664
+/ 
+ 
+parameter 
+gen_cap2area / 
+Solar 40.0
+Windoffshore 5.0
+Windonshore 3.0
+HydroRoR 1.0
+/ 
+ 
+parameter 
+gen_af / 
+NaturalgasCCGTwithCCSnewOT 0.9
+NaturalgasOCGTnew 0.9
+BiomassCCS 0.9
+Solar 0.0
+Windoffshore 0.0
+Windonshore 0.0
+HydroRoR 0.98
+HydroRes 0.98
+NuclearEPR 0.91
+NuclearSW 0.91
+SynCon -0.04
+/ 
+ 
+parameter 
+gen_mingen / 
+NaturalgasCCGTwithCCSnewOT 0.5
+NaturalgasOCGTnew 0.2
+BiomassCCS 0.5
+Solar 1.0
+Windoffshore 1.0
+Windonshore 1.0
+HydroRoR 0.0
+HydroRes 0.0
+NuclearEPR 0.5
+NuclearSW 0.5
+SynCon 1.0
+/ 
+ 
+parameter 
+gen_peakaf / 
+NaturalgasCCGTwithCCSnewOT 0.9
+NaturalgasOCGTnew 0.9
+BiomassCCS 0.9
+Solar 0.0
+Windoffshore 0.24
+Windonshore 0.17
+HydroRoR 0.98
+HydroRes 0.98
+NuclearEPR 0.91
+NuclearSW 0.91
+SynCon 1.0
+/ 
+ 
