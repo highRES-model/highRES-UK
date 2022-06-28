@@ -8593,9 +8593,6 @@ PlaneRownr=-1
 [RP:HIGHRES_STORAGE_UC_SETUP]
 1=
 
-[RP:HIGHRES_STORAGE_SETUP]
-1=
-
 [RP:HIGHRES_RESULTS]
 1=
 
@@ -8776,12 +8773,6 @@ Order=1,2
 Decim=7
 PlaneRownr=-1
 
-[RP:HIGHRES_UC_SETUP]
-1=
-
-[RP:HIGHRES_DATA_INPUT]
-1=
-
 [GDXDISP: uk_dem Par 1]
 PlaneDim=0
 RowDim=1
@@ -8791,31 +8782,33 @@ Order=1
 Decim=7
 PlaneRownr=-1
 
+[RP:HIGHRES_UC_SETUP]
+1=
+
+[RP:HIGHRES_DATA_INPUT]
+1=
+
+[RP:HIGHRES_STORAGE_SETUP]
+1=
+
 [RP:HIGHRES]
 1=
 
 [MRUFILES]
-1=C:\science\models\highRES\model_versions\gb_extended\work\vre_2010_.gdx
-2=C:\science\models\highRES\model_versions\gb_extended\work\runs_idc\ALL_MedREMedNuc_FXTrans_YES_2010.gdx
-3=C:\VEDA2\Veda2\GAMS_WrkTIMES\com_bprice.gdx
-4=C:\VEDA2\tiam_ref_diffile_input1old_1.log
-5=C:\VEDA\VEDA_FE\Gams_WrkVedaHarmonisation\com_bprice.gdx
-6=C:\VEDA2\tiam_ref_diffile_input1old_1.gdx
-7=C:\VEDA2\Veda2\GAMS_WrkTIMES\GamsSave\Ref.gdx
-8=C:\VEDA\VEDA_FE\Gams_WrkVedaHarmonisation\GamsSave\Reference.gdx
-9=C:\VEDA2\tiam_ref_diffile_input1old.log
+1=C:\science\models\highRES\model_versions\gb_extended\work\highRES-UK\highres_storage_setup.gms
+2=C:\science\models\highRES\model_versions\gb_extended\work\highres_data_input.gms
+3=C:\science\models\highRES\model_versions\gb_extended\work\highres_storage_setup.gms
+4=C:\science\models\highRES\model_versions\gb_extended\work\New folder\highres_storage_setup.gms
+5=C:\science\models\highRES\model_versions\gb_extended\work\highRES-UK\highres.log
+6=C:\science\models\highRES\model_versions\gb_extended\work\highres.lst
+7=C:\science\models\highRES\model_versions\gb_extended\work\highres_uc_setup.gms
 
 [OPENWINDOW_1]
 FILE0=C:\science\models\highRES\model_versions\gb_extended\work\highres.gms
-FILE1=C:\science\models\highRES\model_versions\gb_extended\work\highres.lst
-FILE2=C:\science\models\highRES\model_versions\gb_extended\work\highres_data_input.gms
-FILE3=C:\science\models\highRES\model_versions\gb_extended\work\highres_uc_setup.gms
-FILE4=C:\science\models\highRES\model_versions\gb_extended\work\runs_idc\ALL_MedRELowNuc_FXTrans_NO_2010.gdx
-FILE5=C:\science\models\highRES\model_versions\gb_extended\work\runs_idc\ALL_MedREMedNuc_FXTrans_YES_1995.gdx
-FILE6=C:\science\models\highRES\model_versions\gb_extended\work\runs_idc\BASE_MedRELowNuc_FXTrans_NO_2010.gdx
-FILE7=C:\science\models\highRES\model_versions\gb_extended\work\runs_idc\BASE_MedRELowNuc_FXTrans_YES_2010.gdx
-FILE8=C:\science\models\highRES\model_versions\gb_extended\work\runs_idc\ALL_MedREMedNuc_FXTrans_YES_1995.gdx
-MAXIM=1
+FILE1=C:\science\models\highRES\model_versions\gb_extended\work\highRES-UK\highres.gms
+FILE2=C:\science\models\highRES\model_versions\gb_extended\work\highRES-UK\highres.lst
+FILE3=C:\science\models\highRES\model_versions\gb_extended\work\highRES-UK\highres.lst
+MAXIM=0
 TOP=55
 LEFT=45
 HEIGHT=726

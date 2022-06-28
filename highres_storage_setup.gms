@@ -9,9 +9,9 @@ $ONEMPTY
 
 * read in storage sets/data
 
-*set s
+set s;
 */
-$INCLUDE %psys_scen%_store_sets.dd
+*$INCLUDE %psys_scen%_store_sets.dd
 */;
 
 
@@ -42,7 +42,7 @@ parameter store_inertia(s)    ;
 parameter store_startupcost(s)  ;
 parameter store_maxramp(s);
 
-$INCLUDE %psys_scen%_store_parameters.dd
+$INCLUDE %psys_scen%_store.dd
 
 
 
